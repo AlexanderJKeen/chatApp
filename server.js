@@ -13,7 +13,7 @@ app.use(express.static(publicDir))
 io.on('connection', (socket) => {
     console.log('New WebSocket Coinnection ')
 
-    socket.emit("message", "welcome")
+    socket.emit("message", "Ask Dan")
     socket.broadcast.emit('message', "A new user has joined")
 
     socket.on('sendMessage', (param) => {

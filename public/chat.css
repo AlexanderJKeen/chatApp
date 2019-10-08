@@ -1,5 +1,65 @@
+body{
+    margin:0%;
+    display:grid;
+    padding:0%;
+    background-image: url('./Dan.jpg');
+    justify-content: center;
+}
+#hi{
+    color: #ffccbc;
+    /* animation: hi 1s ease-in-out infinite alternate; */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+#dan{
+    border-radius: 200%;
+    height:100px;
+}
+#header{
+    display:grid;
+}
+/* @-webkit-keyframes hi {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffccbc, 0 0 40px #ffccbc, 0 0 50px #ffccbc, 0 0 60px #ffccbc, 0 0 70px #ffccbc;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ffccbc, 0 0 50px #ffccbc, 0 0 60px #ffccbc, 0 0 70px #ffccbc, 0 0 80px #ffccbc;
+    }
+  } */
+#hiya{
+    font-family: 'Permanent Marker', cursive;
+    height:40px;
+    width:100px;
+    border-radius: 14px;
+}
+#form{
+    justify-self: center;
+}
+#input{
+    width: 300px;
+    height:40px;
+    border-radius: 14px;
+    font-size: 20px;
+    border: 2px solid black;
+
+}
+#wrapper{
+    text-align: center;
+    flex:row;
+}
+
 .mo{
-    height: 20px;
-    width: 100%;
-    
+    height: auto;
+    width: 200px;
+    background-color: #00887a;
+    border-radius: 14px;
+    border: 2px solid black;
+    justify-self: center;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    color: #ffffff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    flex:1;
+    overflow:auto;
 }
